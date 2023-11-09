@@ -4,14 +4,20 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "ele": "electron .",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@electron-forge/cli": "^6.4.2",
-    "electron": "^27.0.4"
+    "electron": "^27.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.0.1"
   }
 }
