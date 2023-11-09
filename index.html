@@ -14,23 +14,17 @@
     </script>
 
     <link rel="stylesheet" href="./view/index/index.css">
-    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    
-    <script src="https://unpkg.com/@douyinfe/semi-ui@2.27.0/dist/umd/semi-ui.min.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/@douyinfe/semi-ui@2.27.0/dist/css/semi.css">
-    
-    <script src="https://unpkg.com/@douyinfe/semi-icons@latest/dist/umd/semi-icons.min.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/@douyinfe/semi-icons@latest/dist/css/semi-icons.css">
-    <script src="https://unpkg.com/@douyinfe/semi-illustrations@latest/dist/umd/semi-illustrations.min.js"></script>
-    <!-- <script type="module" src="./tools.js"></script> -->
   </head>
   <body>
     <div id="root"></div>
 
     <div id="add-btn">添加</div>
     <div id="shell-list"></div>
+
+    <div>-------------------------</div>
+    <div>语音转文本</div>
+    <button id="start-voice-btn">开始</button>
+    <button id="stop-voice-btn">停止</button>
 
     
     <script src="./view/index/index.js"></script>
@@ -42,26 +36,6 @@
     </script>
 
 
-    <!-- <script type="text/babel">
-        const { Input, Button, Toast, Icon, Form } = SemiUI;
-        const { IconHome } = SemiIcons;
-        const { IllustrationConstruction } = SemiIllustrations;
 
-        // import { Time } from 'tools';
-        // const { Time }  = require('./tools.js')
-        console.log('Time', Time)
-
-        ReactDOM.render(
-            <div>
-                <Button onClick={
-                    () => console.log(Time())
-                }>test</Button>
-                <Input defaultValue="semi" onChange={value => Toast.info('hello semi')}></Input>
-                <IconHome size="large" />
-                <IllustrationConstruction style={{ width: 150, height: 150 }} />
-            </div>,
-            document.getElementById('root')
-        );
-    </script> -->
   </body>
 </html>
